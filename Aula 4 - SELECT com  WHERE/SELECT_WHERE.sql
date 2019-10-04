@@ -9,11 +9,11 @@
 */
 
 
-SELECT		e.FirstName,
-			e.LastName,
-			e.City
-FROM		Employees as e
-WHERE		e.City = 'London';
+SELECT		FirstName,
+			LastName,
+			City
+FROM		Employees
+WHERE		City = 'London';
 
 
 -- Resultado da Query:
