@@ -10,8 +10,8 @@
 
 
 SELECT		FirstName,
-			LastName,
-			City
+		LastName,
+		City
 FROM		Employees
 WHERE		City = 'London';
 
