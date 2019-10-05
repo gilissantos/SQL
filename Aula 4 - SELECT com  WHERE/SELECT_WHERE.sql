@@ -10,8 +10,8 @@
 
 
 SELECT		FirstName,
-		LastName,
-		City
+			LastName,
+			City
 FROM		Employees
 WHERE		City = 'London';
 
@@ -23,6 +23,20 @@ Steven		Buchanan	London
 Michael		Suyama		London
 Robert		King		London
 Anne		Dodsworth	London
+
+-- ----------------------------------------------------------------
+
+SELECT		FirstName,
+			LastName,
+			City
+FROM		Employees
+WHERE		employeeID = 1;
+
+
+-- Resultado da Query
+
+FirstName	LastName	City
+Nancy		Davolio		Seattle
 
 
 -- Obs: Fique atento com o tipo de dados que vai passar como parâmetro, dados do tipo texto/string, data/hora e decimal/float devem ser descritos entre ''.
