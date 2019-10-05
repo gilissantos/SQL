@@ -1,5 +1,0 @@
-O que é a instrução SELECT?
-
-A instrução ou comando SELECT permite recuperar/selecionar dados de um objeto de Banco de Dados como: tabela, view, stored procedure.
-Em nossos exemplos vamos recuperar/selecionar dados apenas de tabelas.
-Em outras palavras vamos criar uma projeção dos dados que iremos selecionar.
