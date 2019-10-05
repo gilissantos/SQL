@@ -10,8 +10,8 @@
 
 
 SELECT		FirstName,
-			LastName,
-			City
+		LastName,
+		City
 FROM		Employees
 WHERE		City = 'London';
 
@@ -27,8 +27,8 @@ Anne		Dodsworth	London
 -- ----------------------------------------------------------------
 
 SELECT		FirstName,
-			LastName,
-			City
+		LastName,
+		City
 FROM		Employees
 WHERE		employeeID = 1;
 
