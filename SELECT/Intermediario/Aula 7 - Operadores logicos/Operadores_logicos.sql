@@ -6,11 +6,11 @@
 
 
 	Operador	Significado
-	AND			TRUE se as duas expressões boolianas forem TRUE.
+	AND		TRUE se as duas expressões boolianas forem TRUE.
 	BETWEEN		TRUE se o operando estiver dentro de um intervalo.
-	IN			TRUE se o operando for igual a um de uma lista de expressões.
+	IN		TRUE se o operando for igual a um de uma lista de expressões.
 	*LIKE		TRUE se o operando corresponder a um padrão.
-	OR			TRUE se qualquer expressão booliana for TRUE.
+	OR		TRUE se qualquer expressão booliana for TRUE.
 
 	Obs: Estamos tratando de retorno de dados do tipo booleano, porém vamos tratar apenas o retorno em tabelas.
 
@@ -21,10 +21,10 @@
 -- ------------------------------------------------------------------------------------------------------------------
 
 SELECT		City,
-			Country
+		Country
 FROM		Employees
 WHERE		Country = 'UK'
-AND			City = 'London';
+AND		City = 'London';
 
 -- resultado da query:
 
