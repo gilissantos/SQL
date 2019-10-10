@@ -1,18 +1,18 @@
 /*
-	Os operadores lÛgicos testam se determinadas condiÁıes s„o verdadeiras/legÌtimas.
+	Os operadores l√≥gicos testam se determinadas condi√ß√µes s√£o verdadeiras/leg√≠timas.
 	Retornam tipo de dados BOOLEAN com valores: TRUE, FALSE ou UNKNOWN.
-	Utilizamos os operadores lÛgicos junto com a cl·usula WHERE, ou seja, adicionando mais condiÁıes.
-	Veja a tabela com a descriÁ„o abaixo:
+	Utilizamos os operadores l√≥gicos junto com a cl√°usula WHERE, ou seja, adicionando mais condi√ß√µes.
+	Veja a tabela com a descri√ß√£o abaixo:
 
 
 	Operador	Significado
-	AND			TRUE se as duas expressıes boolianas forem TRUE.
+	AND			TRUE se as duas express√µes boolianas forem TRUE.
 	BETWEEN		TRUE se o operando estiver dentro de um intervalo.
-	IN			TRUE se o operando for igual a um de uma lista de expressıes.
-	*LIKE		TRUE se o operando corresponder a um padr„o.
-	OR			TRUE se qualquer express„o booliana for TRUE.
+	IN			TRUE se o operando for igual a um de uma lista de express√µes.
+	*LIKE		TRUE se o operando corresponder a um padr√£o.
+	OR			TRUE se qualquer express√£o booliana for TRUE.
 
-	Obs: Estamos tratando de retorno de dados do tipo booleano, porÈm vamos tratar apenas o retorno em tabelas.
+	Obs: Estamos tratando de retorno de dados do tipo booleano, por√©m vamos tratar apenas o retorno em tabelas.
 
 */
 
@@ -51,7 +51,7 @@ Quantity
 12
 10
 
--- Importante: O operador BETWEEN obrigatÛriamente sÛ pode ser usado com o operador AND;
+-- Importante: O operador BETWEEN obrigat√≥riamente s√≥ pode ser usado com o operador AND;
 
 -- ------------------------------------------------------------------------------------------------------------------
 --												Operador [ IN ] = NO/EM
@@ -72,17 +72,17 @@ London
 Seattle	
 London	
 
--- Obs: O operador IN rece uma lista que poder ser do tipo string, data/hora ou numÈrico.
+-- Obs: O operador IN rece uma lista que poder ser do tipo string, data/hora ou num√©rico.
 
 -- ------------------------------------------------------------------------------------------------------------------
 --												Operador [ OR ] = OU
 -- ------------------------------------------------------------------------------------------------------------------
 
 SELECT		City,
-			Country
+		Country
 FROM		Employees
 WHERE		Country = 'USA'
-OR			City = 'london';
+OR		City = 'london';
 
 -- Resultado da Query:
 
@@ -99,4 +99,4 @@ London		UK
 
 
 
--- *O operador LIKE foi apartado destes exemplos em outra aula separada nomeada como Aula * - Operador_LIKE.
+-- *O operador LIKE foi apartado destes exemplos em outra aula separada nomeada como Aula 4 - Operador_LIKE.
