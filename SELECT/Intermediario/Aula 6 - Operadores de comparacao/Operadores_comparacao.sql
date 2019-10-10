@@ -1,23 +1,23 @@
 /*
-	Os operadores de comparaÁ„o testam se duas expressıes s„o iguais, podem ser utilizados em todas as expressıes.
-	Exceto quando as expressıes s„o do tipo de dados TEXT, NTEXT ou IMAGE. 
-	Em nossos exemplos vamos utilizar a cl·usula WHERE + o operador de comparaÁ„o.
+	Os operadores de compara√ß√£o testam se duas express√µes s√£o iguais, podem ser utilizados em todas as express√µes.
+	Exceto quando as express√µes s√£o do tipo de dados TEXT, NTEXT ou IMAGE. 
+	Em nossos exemplos vamos utilizar a cl√°usula WHERE + o operador de compara√ß√£o.
 
-	Veja a descriÁ„o abaixo:
+	Veja a descri√ß√£o abaixo:
 
-	Operador					Significado
-	= (Igual a)					Igual a
-	> (Maior que)				Maior que
-	< (Menor que)				Menor que
+	Operador			Significado
+	= (Igual a)			Igual a
+	> (Maior que)			Maior que
+	< (Menor que)			Menor que
 	>= (Maior ou igual a)		Maior que ou igual a
 	<= (Menor ou igual a)		Menor que ou igual a
-	<> (Diferente de)			… diferente de
-	!= (N„o È igual a)			Diferente de (n„o È padr„o ISO)
-	!< (N„o È menor que)		N„o È menor que (n„o È padr„o ISO)
-	!> (N„o È maior que)		N„o È maior que (n„o È padr„o ISO)
+	<> (Diferente de)		√â diferente de
+	!= (N√£o √© igual a)		Diferente de (n√£o √© padr√£o ISO)
+	!< (N√£o √© menor que)		N√£o √© menor que (n√£o √© padr√£o ISO)
+	!> (N√£o √© maior que)		N√£o √© maior que (n√£o √© padr√£o ISO)
 	
 
-	Sint·xe:
+	Sint√°xe:
 
 	SELECT nameColumn FROM nameTable WHERE operadorLogico nameColumn;   
 */
@@ -27,7 +27,7 @@
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate = '1992-05-01';
 
@@ -42,7 +42,7 @@ Nancy		1992-05-01
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate < '1992-05-01';
 
@@ -57,7 +57,7 @@ Nancy		1992-04-01
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate > '1992-05-01';
 
@@ -77,7 +77,7 @@ Anne		1994-11-15
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate <> '1992-05-01';
 
@@ -98,7 +98,7 @@ Anne		1994-11-15
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate <= '1992-05-01';
 
@@ -113,7 +113,7 @@ Janet		1992-04-01
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate >= '1992-05-01';
 
@@ -130,11 +130,11 @@ Laura		1994-03-05
 Anne		1994-11-15
 
 -- --------------------------------------------------------------------------------------------------
---								Operador [ != ] N„o È igual a 
+--								Operador [ != ] N√£o √© igual a 
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate != '1992-05-01';
 
@@ -151,11 +151,11 @@ Laura		1994-03-05
 Anne		1994-11-15
 
 -- --------------------------------------------------------------------------------------------------
---								Operador [ !< ] N„o È menor que 
+--								Operador [ !< ] N√£o √© menor que 
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate !< '1992-05-01';
 
@@ -172,11 +172,11 @@ Laura		1994-03-05
 Anne		1994-11-15
 
 -- --------------------------------------------------------------------------------------------------
---								Operador [ !> ] N„o È maior que 
+--								Operador [ !> ] N√£o √© maior que 
 -- --------------------------------------------------------------------------------------------------
 
 SELECT		FirstName,
-			HireDate
+		HireDate
 FROM		Employees
 WHERE		HireDate !< '1992-05-01';
 
@@ -193,4 +193,4 @@ Laura		1994-03-05
 Anne		1994-11-15
 
 
--- Obs: faÁa v·rios simulaÁıes com dados distintos: texto, numÈricos etc. 
+-- Obs: fa√ßa v√°rias simula√ß√µes com dados distintos: texto, num√©ricos etc. 
