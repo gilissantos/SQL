@@ -1,18 +1,18 @@
 /*
-	Campo ou coluna tempor·ria s„o o resultado de uma consulta, operaÁ„o matem·tica ou demais expressıes.
-	Este objeto È armazenado na memÛria tempor·ra, n„o altera a estrutura fÌsica de uma tabela, apÛs a consulta È descartada.
-	Vamos realizar alguns exemplos e utilizar AS/Alias, ou seja, codinome/apelido para os campos tempor·rios.
+	Campo ou coluna tempor√°ria s√£o o resultado de uma consulta, opera√ß√£o matem√°tica ou demais express√µes.
+	Este objeto √© armazenado na mem√≥ria tempor√°ra, n√£o altera a estrutura f√≠sica de uma tabela, ap√≥s a consulta √© descartada.
+	Vamos realizar alguns exemplos e utilizar AS/Alias, ou seja, codinome/apelido para os campos tempor√°rios.
 
-	Sint·xe:
+	Sint√°xe:
 
 	SELECT nameColumn1, 'valueTemporary' AS 'nameColumnTemporary' FROM nameTable;
 */
 
-SELECT		e.FirstName,
-			'Period of Experience' AS 'Situation'
-FROM		Employees AS e;
+SELECT		FirstName,
+		'Period of Experience' AS 'Situation'
+FROM		Employees;
 
--- Resultado da Query: Adicionamos o valor 'Period of Experience' do tipo strin e o tÌtulo do campo/coluna.
+-- Resultado da Query: Adicionamos o valor 'Period of Experience' do tipo strin e o t√≠tulo do campo/coluna.
 
 FirstName	Situation
 Nancy		Period of Experience
@@ -28,12 +28,12 @@ Anne		Period of Experience
 -- --------------------------------------------------------------------------------------------
 
 SELECT	UnitPrice,
-		Quantity,
-		(UnitPrice * Quantity) as totalValue
+	Quantity,
+	(UnitPrice * Quantity) as totalValue
 FROM	[Order Details];
 
 /*
- Resultado da Query: realizamos um c·lculo/multiplicamos o preÁo unitpario * a quantidade.
+ Resultado da Query: realizamos um c√°lculo/multiplicamos o pre√ßo unitpario * a quantidade.
  Armazenamos o resultado em uma coluna que nomeamos como totalValue.
 */
 
