@@ -1,0 +1,12 @@
+Avançando seus conhecimento da instrução SELECT de Banco de Dados do tipo SQL, os assuntos abordados neste é de nível intermediário.Em nossos exemplos vamos usar a base de dados Northwind do MS SQL Server, porém podem utilizar qualquer base distinta como desejar.
+
+O que veremos neste curso:
+
+> Operadores aritméticos 
+> Operadores lógicos
+> Operadores de comparação
+> Operador Like
+> Campos calculados
+> SELECT com funções agregadas
+
+Obs: Algumas funções e sintáxe são nativas do Microsoft SQL Server.
