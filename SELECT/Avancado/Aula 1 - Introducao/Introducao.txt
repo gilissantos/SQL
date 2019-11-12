@@ -1,0 +1,11 @@
+Seja bem vindo ao modo Avançado da instrução SELECT com o SQL, neste material vamos abordar:
+
+> Select com variáveis
+> FORMAT 
+> CONCAT e CONCAT_WS
+> Pivot
+> Sub-Select
+> Replace
+> Lenght
+> Left
+> Right
