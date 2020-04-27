@@ -9,7 +9,7 @@ Neste respositório encontrará alguns exemplos de códigos do comando <strong>S
 <br>
 <p>
   Introução ao comando <strong>SELECT</strong> em banco de dados do tipo <strong>Relacional (RBDMS)</strong>, popularmente conhecido como <strong>SQL (Structure Query Language)</strong>, em portugês <strong>Linguagem de Consulta Estruturada</strong>.
-Para os exemplos vamos utilizar a base de dados de estudos do <strong>Northwind do MS SQL Server</strong>, porém podem utilizar qualquer base distinta como desejar, basta usar a mesma sintáxe como espelho.
+  Para os exemplos vamos utilizar a base de dados de estudos do <strong>Northwind</strong> do <strong>MS SQL Server</strong>, porém podem utilizar qualquer base distinta como desejar, basta usar a mesma sintáxe como espelho.
 </p><br>
 
 
