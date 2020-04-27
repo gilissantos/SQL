@@ -1,14 +1,15 @@
-Introução ao comando SELECT em banco de dados do tipo Relacional (RBDMS), popularmente conhecido como SQL(Structure Query Language), em portugês Linguagem de Consulta Estruturada. Conteúdo do material
-Em nossos exemplos vamos usar a base de dados Northwind do MS SQL Server, porém podem utilizar qualquer base distinta como desejar.
+IntrouÃ§Ã£o ao comando SELECT em banco de dados do tipo Relacional (RBDMS), popularmente conhecido como SQL(Structure Query Language), em portugÃªs Linguagem de Consulta Estruturada.
+Para os exemplos vamos utilizar a base de dados de estudos do Northwind do MS SQL Server, porÃ©m podem utilizar qualquer base distinta como desejar, basta usar a mesma sintÃ¡xe como espelho.
+
 
 > SELECT simples
 > Comando WHERE
 > Filtro de texto
-> Ordenação
-> Funções de agrupamento
+> OrdenaÃ§Ã£o
+> FunÃ§Ãµes de agrupamento
 > Agrupamento
 
 
-Pré-requisito: estudantes de programação, iniciantes em banco de dados ou áreas de tecnologia correlatas. 
+PrÃ©-requisito: estudantes de programaÃ§Ã£o, iniciantes em banco de dados ou Ã¡reas de tecnologia correlatas. 
 
-Importante: Neste material não iremos abordar nenhum tutorial de instalação de Sistemas de Gerenciamento de Banco de Dados.
+Importante: Neste material nÃ£o hÃ¡ nenhum tutorial de instalaÃ§Ã£o de Sistemas de Gerenciamento de Banco de Dados ou como importar o schema de dados Northeind.
