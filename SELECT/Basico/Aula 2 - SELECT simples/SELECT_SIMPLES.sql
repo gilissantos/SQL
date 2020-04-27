@@ -1,10 +1,10 @@
 /*
 
-O SELECT simples utilizamos o caractere especial * para recuperar todas as colunas de uma tabela.
-Em boas práticas não devemos utilizá-lo, o ideal é colocar os nomes das colunas que queremos recuperar os dados.
+O SELECT simples utilizamos o caractere especial * para recuperar todas as linhas e colunas de uma tabela.
+Em boas prÃ¡ticas nÃ£o devemos utilizÃ¡-lo, o ideal Ã© colocar os nomes das colunas desejadas.
 
 
-Sintáxe:
+SintÃ¡xe:
 
 SELECT -> SELECIONE
   *    -> [Todas as colunas]	
@@ -31,4 +31,4 @@ EmployeeID		LastName		FirstName		Title
 9				Dodsworth		Anne			Sales Representative
 
 
- -- Observação: Neste exemplo resulta em 9 linhas e 4 colunas(porém nesta tabela há 14 colunas) 
+ -- ObservaÃ§Ã£o: Neste exemplo resulta em 9 linhas e 4 colunas(porÃ©m nesta tabela hÃ¡ 14 colunas) 
