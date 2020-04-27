@@ -5,6 +5,7 @@
 
 <p>
 Neste respositório encontrará alguns exemplos de códigos do comando <strong>SELECT</strong> do Básico ao Avançado.<br>
+Algumas funções de agregações e comandos são do <strong>T-SQL</strong> extensão do <strong>Microsoft SQL Server</strong>.  
 </p>
 <br>
 <p>
