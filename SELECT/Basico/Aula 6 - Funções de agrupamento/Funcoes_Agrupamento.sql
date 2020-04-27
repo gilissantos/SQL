@@ -1,14 +1,16 @@
 /*
-	As funÁıes de agrupamento de dados permitem a recupeÁ„o e manipulaÁ„o de dados, porÈm apenas para exibiÁ„o, ou seja n„o alteramos a natureza dos dados.
-	Neste exemplo vamos contar a quantidade de registros, somar, multiplicar, mÌnimo, m·ximo e mÈdia de determinados campos calculados.
+	As fun√ß√µes de agrupamento de dados permitem a recupe√ß√£o e manipula√ß√£o de dados, por√©m apenas para exibi√ß√£o, ou seja n√£o alteramos a natureza dos dados.
+	Neste exemplo vamos contar a quantidade de registros, somar, multiplicar, m√≠nimo, m√°ximo e m√©dia de determinados campos calculados.
 	
-	Sint·xe:
+	Obs: a partir deste exemplo vamos utilizar AS(ALIAS) que significa pseud√¥nimo ou codinome para nomear as colunas e fun√ß√µes de agrega√ß√£o.
+	
+	Sint√°xe:
 
-	SELECT nameFunction(nameColumn) FROM nameTable;
+	SELECT nameFunction(nameColumn) AS 'nomeDesejado' FROM nameTable;
 
 */
 
--- Resultado da Query com a funÁ„o Count(), contamos a quantidade de produtos da tabela Products:
+-- Resultado da Query com a fun√ß√£o Count(), contamos a quantidade de produtos da tabela Products:
 
 SELECT		COUNT(ProductName) AS Qtde
 FROM		Products;
@@ -19,7 +21,7 @@ Qtde
 -- -------------------------------------------------------------------------------------------------------------------
 -- -------------------------------------------------------------------------------------------------------------------
 
--- Resultado da Query com a funÁ„o SUM(), realizamos a soma do preÁo de todos os produtos da coluna UnitPrice:
+-- Resultado da Query com a fun√ß√£o SUM(), realizamos a soma do pre√ßo de todos os produtos da coluna UnitPrice:
 
 SELECT		SUM(UnitPrice) AS SOMA
 FROM		Products;
@@ -29,7 +31,7 @@ SOMA
 -- -------------------------------------------------------------------------------------------------------------------
 -- -------------------------------------------------------------------------------------------------------------------
 
--- Resultado da Query com a funÁ„o MIN(), consultamos o menor preÁo da coluna UnitPrice:
+-- Resultado da Query com a fun√ß√£o MIN(), consultamos o menor pre√ßo da coluna UnitPrice:
 
 SELECT		MIN(UnitPrice) AS MINIMO
 FROM		Products;
@@ -39,7 +41,7 @@ MINIMO
 -- -------------------------------------------------------------------------------------------------------------------
 -- -------------------------------------------------------------------------------------------------------------------
 
--- Resultado da Query com a funÁ„o MAX(), consultamos o maior preÁo da coluna UnitPrice:
+-- Resultado da Query com a fun√ß√£o MAX(), consultamos o maior pre√ßo da coluna UnitPrice:
 
 SELECT		MAX(UnitPrice) AS MAXIMO
 FROM		Products;
@@ -49,7 +51,7 @@ MAXIMO
 -- ------------------------------------------------------------------------------------------------------------------
 -- -------------------------------------------------------------------------------------------------------------------
 
--- Resultado da Query com a funÁ„o AVG(), consultamos a media de preÁo da coluna UnitPrice:
+-- Resultado da Query com a fun√ß√£o AVG(), consultamos a media de pre√ßo da coluna UnitPrice:
 
 SELECT		AVG(UnitPrice) AS MEDIA
 FROM		Products;
