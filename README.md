@@ -18,8 +18,22 @@ Algumas funções de agregações e comandos são do <strong>T-SQL</strong> exte
 > Comando WHERE<br>
 > Filtro de texto<br>
 > Ordenação<br>
-> Funções de agrupamento<br>
-> Agrupamento
+> Funções de agregação<br>
+> Agrupamento<br>
+> Operadores aritméticos<br> 
+> Operadores lógicos<br>
+> Operadores de comparação<br>
+> Operador Like<br>
+> Campos calculados<br>
+> Select com variáveis<br>
+> FORMAT <br>
+> CONCAT e CONCAT_WS<br>
+> Pivot<br>
+> Sub-Select<br>
+> Replace<br>
+> Lenght<br>
+> Left<br>
+> Right<br>
 <br>
 <br>
 
